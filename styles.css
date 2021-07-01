@@ -33,7 +33,7 @@ body {
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   padding: 0 40px;
-  grid-template-areas: ". content content content content ."
+  grid-template-areas: "... content content content content ..."
 }
 
 .grid-video {
@@ -55,6 +55,7 @@ body {
 .content {
   grid-area: content;
   max-width: 1000px;
+  justify-self: center;
   width: 100%;
 }
 
@@ -155,11 +156,14 @@ body {
   grid-area: benefits;
   margin-left: 3rem;
   justify-self: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75%
 }
 
 .benefit {
   font-size: 3rem;
-  margin-bottom: 1rem;
   display: flex;
   align-items: center;
 }
@@ -210,6 +214,10 @@ body {
     margin-top: 2rem;
     margin-left: 0;
     justify-self: center;
+  }
+
+  .benefit {
+    margin-bottom: 1rem;
   }
 }
 
