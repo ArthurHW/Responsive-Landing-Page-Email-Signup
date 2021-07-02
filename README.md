@@ -17,7 +17,7 @@
 <p align="center">
     <img style="border: 2px solid black; border-radius: 20px;" src="images/desktop-demo.gif" alt="Landing Page Demo - Desktop">
     <br>
-    <img src="images/screenshot-demo-mobile.png" alt="Landing Page Demo - Mobile">
+    <img style="border: 2px solid black; border-radius: 20px;" src="images/mobile-demo.gif" alt="Landing Page Demo - Mobile">
 </p>
 ## 🚀 Tecnologias
 
