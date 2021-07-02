@@ -19,6 +19,7 @@
     <br>
     <img style="border: 2px solid black; border-radius: 20px;" src="images/mobile-demo.gif" alt="Landing Page Demo - Mobile">
 </p>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
